@@ -3,25 +3,7 @@ import Link from 'next/link';
 
 const DashboardComponent = () => {
   return (
-    <div className="p-4 md:p-6 space-y-6">
-      <header>
-        <nav className="flex items-center text-sm text-gray-500 mb-4">
-          <Link href="/" className="hover:text-gray-700">Main Menu</Link>
-          <span className="mx-2">/</span>
-          <span className="text-gray-700">Dashboard</span>
-        </nav>
-        <div className="flex justify-between items-center mb-6">
-          <h1 className="text-2xl font-semibold text-gray-900">Dashboard</h1>
-          <div className="flex space-x-2">
-            <select className="border border-gray-300 rounded-md text-sm px-2 py-1">
-              <option>Marketing</option>
-            </select>
-            <select className="border border-gray-300 rounded-md text-sm px-2 py-1">
-              <option>Brand</option>
-            </select>
-          </div>
-        </div>
-      </header>
+    <div className="p-4 md:px-6 space-y-6">
 
       <section className="bg-white rounded-lg shadow-sm p-6 space-y-6">
         <div className="flex justify-between items-center">
